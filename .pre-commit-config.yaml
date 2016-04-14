@@ -1,0 +1,5 @@
+-   repo: git://github.com/pre-commit/pre-commit-hooks
+    sha: master
+    hooks:
+    -   id: trailing-whitespace
+    -   id: flake8
