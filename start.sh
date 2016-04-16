@@ -18,5 +18,5 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py collectstatic --noinput
 
-gunicorn doctor_appointment.wsgi:application -D -b :80 -P gunicorn.pid
+gunicorn doctor_appointment.wsgi:application -D -b :80 -p gunicorn.pid
 echo "The app is listening to port 80!"
