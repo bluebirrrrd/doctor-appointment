@@ -20,3 +20,5 @@ python manage.py collectstatic --noinput
 
 gunicorn doctor_appointment.wsgi:application -D -b :80 -p gunicorn.pid
 echo "The app is listening to port 80!"
+
+python manage.py createsuperuser
