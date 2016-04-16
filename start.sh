@@ -8,7 +8,7 @@ fi
 export DEBIAN_FRONTEND=noninteractive
 
 # TODO: set up nginx+wsgi and normal db
-apt-get install -y python3 npm
+apt-get install -y python3-virtualenv npm
 
 npm install
 virtualenv -p python3 .env
