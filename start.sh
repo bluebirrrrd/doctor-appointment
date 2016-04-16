@@ -11,7 +11,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get install -y python3-virtualenv npm
 
 npm install
-virtualenv -p python3 .env
+python3 -m virtualenv -p python3 .env
 source ./.env/bin/activate
 pip install -r requirements.txt
 
