@@ -3,26 +3,7 @@
 {% block appointment_form %}
 <section id="form-wrapper">
     <form method="POST" class="appointment-form">{% csrf_token %}
-        <div class="fieldWrapper">
-            {{ form.doctor.errors }}
-            <label for="{{ form.doctor.id_for_label }}">Doctor:</label>
-            {{ form.doctor }}
-        </div>
-        <div class="fieldWrapper">
-            {{ form.date.errors }}
-            <label for="{{ form.date.id_for_label }}">Date:</label>
-            {{ form.date }}
-        </div>
-        <div class="fieldWrapper">
-            {{ form.timeslot.errors }}
-            <label for="{{ form.timeslot.id_for_label }}">Time:</label>
-            {{ form.timeslot }}
-        </div>
-        <div class="fieldWrapper">
-            {{ form.patient_name.errors }}
-            <label for="{{ form.patient_name.id_for_label }}">Name of patient:</label>
-            {{ form.patient_name }}
-        </div>
+        {{ form.as_p }}
         <button type="submit" class="save btn btn-default">Save</button>
     </form>
 </section>
