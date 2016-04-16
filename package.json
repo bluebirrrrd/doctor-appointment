@@ -1,0 +1,23 @@
+{
+  "name": "doctor-appointment",
+  "version": "1.0.0",
+  "description": "Test task for Django dev position",
+  "main": "''",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluebirrrrd/doctor-appointment.git"
+  },
+  "author": "Anna Kurylo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bluebirrrrd/doctor-appointment/issues"
+  },
+  "homepage": "https://github.com/bluebirrrrd/doctor-appointment#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3"
+  }
+}
