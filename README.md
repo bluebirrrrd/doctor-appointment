@@ -1,4 +1,4 @@
-# Doctor appoinment Django app (v1)
+# Doctor appoinment Django app
 
 
 ## Getting Started
